@@ -29,7 +29,12 @@ export class ElementUtil {
             const boxSizing = style.boxSizing;
 
             if (style.display == "contents") {
-                element = element.firstElementChild;
+                let children = Array.from(element.children).filter(e => e.tagName != "STYLE" && e.tagName != "SCRIPT");
+                if (children.length != 1) {
+                    throw new Error("An element with a display property of contents must have only one child to define its intrinsic size.");
+                }
+
+                element = children[0];
                 continue;
             }
 
