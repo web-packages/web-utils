@@ -17,5 +17,5 @@ This package provides additional Util features for the Web standard API.
 # Usage
 ```ts
 // Gets a intrinsic size(i.e. width, height) of a given element.
-ElementUtil.sizeOf(target);
+ElementUtil.intrinsicSizeOf(target);
 ```
