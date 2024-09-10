@@ -1,5 +1,5 @@
 {
-    "name": "web-utils",
+    "name": "@mttankkeo/web-utility",
     "version": "1.0.0",
     "description": "This is package that provides templates that can significantly reduce CSS development works in a react development environment.",
     "repository": "https://github.com/web-packages/web_utils",
