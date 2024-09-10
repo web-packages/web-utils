@@ -5,7 +5,7 @@
         <thead>
           <tr>
             <th>Version</th>
-            <th>v1.0.0</th>
+            <th>v1.1.0</th>
           </tr>
         </tbody>
     </table>
@@ -16,6 +16,17 @@ This package provides additional Util features for the Web standard API.
 
 # Usage
 ```ts
+import { ElementUtil } from "@web-package/utility";
+
 // Gets a intrinsic size(i.e. width, height) of a given element.
 ElementUtil.intrinsicSizeOf(target);
+
+// Gets a intrinsic size(i.e. width, height) of an element by getter calling.
+const size = target.intrinsicSize;
+
+// Gets a intrinsic width of an element by getter calling.
+const width = target.inrinsicWidth;
+
+// Gets a intrinsic height of an element by getter calling.
+const height = target.inrinsicHeight;
 ```
