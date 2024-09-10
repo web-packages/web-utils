@@ -5,7 +5,7 @@
         <thead>
           <tr>
             <th>Version</th>
-            <th>v1.1.0</th>
+            <th>v1.1.10</th>
           </tr>
         </tbody>
     </table>
@@ -25,8 +25,8 @@ ElementUtil.intrinsicSizeOf(target);
 const size = target.intrinsicSize;
 
 // Gets a intrinsic width of an element by getter calling.
-const width = target.inrinsicWidth;
+const width = target.intrinsicWidth;
 
 // Gets a intrinsic height of an element by getter calling.
-const height = target.inrinsicHeight;
+const height = target.intrinsicHeight;
 ```

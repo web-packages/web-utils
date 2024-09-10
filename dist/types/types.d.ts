@@ -3,3 +3,11 @@ export type MeasuredSize = {
     width: number;
     height: number;
 };
+declare global {
+    interface Element {
+        intrinsicSize: MeasuredSize;
+        intrinsicWidth: number;
+        intrinsicHeight: number;
+        reflow: VoidFunction;
+    }
+}
