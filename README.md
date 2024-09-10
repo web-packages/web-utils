@@ -1,15 +1,21 @@
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/735a0e20-0c8f-40b5-b65f-fd99f5e6d101">
-    <h1>Web Packages</h1>
+    <img width="200px" src="https://github.com/user-attachments/assets/9fe86de5-61d7-4a89-ab9d-702ff1c0c901">
+    <h1>Web Utils</h1>
     <table>
         <thead>
           <tr>
             <th>Version</th>
-            <th>v1.0.0-dev</th>
+            <th>v1.0.0</th>
           </tr>
         </tbody>
     </table>
 </div>
 
 # Introduction
-This template provides min-settings of the development environment that makes up web packages.
+This package provides additional Util features for the Web standard API.
+
+# Usage
+```ts
+// Gets a intrinsic size(i.e. width, height) of a given element.
+ElementUtil.sizeOf(target);
+```
