@@ -14,7 +14,7 @@
         "build": "rollup -c",
         "watch": "rollup -c -w"
     },
-    "keywords": ["web", "client-side", "element", "intrinsic-size"],
+    "keywords": ["web", "front-end", "element", "intrinsic-size"],
     "devDependencies": {
         "@rollup/plugin-terser": "^0.4.4",
         "rollup": "^4.13.0",
