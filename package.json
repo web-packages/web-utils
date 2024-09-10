@@ -1,9 +1,9 @@
 {
-    "name": "none",
+    "name": "web-utils",
     "version": "1.0.0",
-    "description": "none",
-    "repository": "none",
-    "bugs": "none",
+    "description": "This is package that provides templates that can significantly reduce CSS development works in a react development environment.",
+    "repository": "https://github.com/web-packages/web_utils",
+    "bugs": "https://github.com/web-packages/web_utils/issues",
     "author": "Dev Ttangkong",
     "license": "MIT",
     "main": "./dist/index.umd.js",
@@ -14,7 +14,7 @@
         "build": "rollup -c",
         "watch": "rollup -c -w"
     },
-    "keywords": ["web"],
+    "keywords": ["web", "client-side", "element", "intrinsic-size"],
     "devDependencies": {
         "@rollup/plugin-terser": "^0.4.4",
         "rollup": "^4.13.0",
