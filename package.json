@@ -1,9 +1,9 @@
 {
-    "name": "@mttankkeo/web-utility",
+    "name": "@web-package/utility",
     "version": "1.0.0",
     "description": "This is package that provides templates that can significantly reduce CSS development works in a react development environment.",
-    "repository": "https://github.com/web-packages/web_utils",
-    "bugs": "https://github.com/web-packages/web_utils/issues",
+    "repository": "https://github.com/web-packages/web_utility",
+    "bugs": "https://github.com/web-packages/web_utility/issues",
     "author": "Dev Ttangkong",
     "license": "MIT",
     "main": "./dist/index.umd.js",
