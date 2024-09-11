@@ -6,5 +6,5 @@ export declare class DOMRectUtil {
      * Gets an intrinsic size (i.e., width, height) and DOMRect values
      * of a given element, including margins and position.
      */
-    static intrinsicOf(element: HTMLElement, computedStyle?: CSSStyleDeclaration): IntrinsicRect;
+    static intrinsicOf(element: Element, computedStyle?: CSSStyleDeclaration): IntrinsicRect;
 }
