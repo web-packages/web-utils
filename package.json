@@ -1,6 +1,6 @@
 {
     "name": "@web-package/utility",
-    "version": "1.1.10",
+    "version": "1.2.0",
     "description": "This is package that provides templates that can significantly reduce CSS development works in a react development environment.",
     "repository": "https://github.com/web-packages/web_utility",
     "bugs": "https://github.com/web-packages/web_utility/issues",
@@ -14,7 +14,17 @@
         "build": "rollup -c",
         "watch": "rollup -c -w"
     },
-    "keywords": ["web", "front-end", "client-side", "element", "intrinsic-size"],
+    "keywords": [
+        "web",
+        "utils",
+        "front-end",
+        "client-side",
+        "element",
+        "element-layout",
+        "intrinsic",
+        "intrinsic-size",
+        "intrinsic-rect"
+    ],
     "devDependencies": {
         "@rollup/plugin-terser": "^0.4.4",
         "rollup": "^4.13.0",
