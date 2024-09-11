@@ -9,21 +9,21 @@ Object.defineProperty(Element.prototype, "intrinsicSize", {
 
 // i.e. const width = element.intrinsicWidth;
 Object.defineProperty(Element.prototype, "intrinsicWidth", {
-    get: () => function() {
+    get: function() {
         return ElementUtil.intrinsicSizeOf(this).width;
     }
 });
 
 // i.e. const height = element.intrinsicHeight;
 Object.defineProperty(Element.prototype, "intrinsicHeight", {
-    get: () => function() {
+    get: function() {
         return ElementUtil.intrinsicSizeOf(this).height;
     }
 });
 
 // i.e. element.reflow();
 Object.defineProperty(Element.prototype, "reflow", {
-    get: () => function() {
+    get: function() {
         return ElementUtil.reflow(this);
     }
 });
