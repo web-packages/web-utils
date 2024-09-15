@@ -1,29 +1,37 @@
 import { ElementUtil } from "../utils/element";
 
 // i.e. const size = element.intrinsicSize;
-Object.defineProperty(Element.prototype, "intrinsicSize", {
-    get: function() {
-        return ElementUtil.intrinsicSizeOf(this);
-    }
-});
+if (Object.getOwnPropertyDescriptor(Element.prototype, "intrinsicSize") == undefined) {
+    Object.defineProperty(Element.prototype, "intrinsicSize", {
+        get: function() {
+            return ElementUtil.intrinsicSizeOf(this);
+        }
+    });
+}
 
 // i.e. const width = element.intrinsicWidth;
-Object.defineProperty(Element.prototype, "intrinsicWidth", {
-    get: function() {
-        return ElementUtil.intrinsicSizeOf(this).width;
-    }
-});
+if (Object.getOwnPropertyDescriptor(Element.prototype, "intrinsicWidth") == undefined) {
+    Object.defineProperty(Element.prototype, "intrinsicWidth", {
+        get: function() {
+            return ElementUtil.intrinsicSizeOf(this).width;
+        }
+    });
+}
 
 // i.e. const height = element.intrinsicHeight;
-Object.defineProperty(Element.prototype, "intrinsicHeight", {
-    get: function() {
-        return ElementUtil.intrinsicSizeOf(this).height;
-    }
-});
+if (Object.getOwnPropertyDescriptor(Element.prototype, "intrinsicHeight") == undefined) {
+    Object.defineProperty(Element.prototype, "intrinsicHeight", {
+        get: function() {
+            return ElementUtil.intrinsicSizeOf(this).width;
+        }
+    });
+}
 
 // i.e. element.reflow();
-Object.defineProperty(Element.prototype, "reflow", {
-    get: function() {
-        return ElementUtil.reflow(this);
-    }
-});
+if (Object.getOwnPropertyDescriptor(Element.prototype, "reflow") == undefined) {
+    Object.defineProperty(Element.prototype, "reflow", {
+        get: function() {
+            return ElementUtil.reflow(this);
+        }
+    });
+}

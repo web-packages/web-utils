@@ -1,5 +1,3 @@
-import "../extensions/domrect";
-
 import { ElementUtil } from "./element";
 import { IntrinsicRect } from "../types";
 

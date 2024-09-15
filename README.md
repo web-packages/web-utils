@@ -5,7 +5,7 @@
         <thead>
           <tr>
             <th>Version</th>
-            <th>v1.2.10</th>
+            <th>v1.2.20</th>
           </tr>
         </tbody>
     </table>
@@ -13,6 +13,8 @@
 
 # Introduction
 This package provides additional Util features for the Web standard API.
+
+> See Also, If you want the change-log by version for this package. refer to [Change Log](CHANGELOG.md) for details.
 
 # Usage
 ```ts

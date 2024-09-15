@@ -1,4 +1,3 @@
-import "../extensions/element";
 import { IntrinsicSize } from "../types";
 /** This class provides util features for an `Element`. */
 export declare class ElementUtil {
