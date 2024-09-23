@@ -20,21 +20,21 @@ This package provides additional Util features for the Web standard API.
 ```ts
 import { ElementUtil, DOMRectUtil } from "@web-package/utility";
 
-// Gets a intrinsic size(i.e. width, height) of a given element.
+// Gets an intrinsic size(i.e. width, height) of a given element.
 ElementUtil.intrinsicSizeOf(target);
 
-// Gets a intrinsic size and DOMRect values of a given element.
+// Gets an intrinsic size and DOMRect values of a given element.
 DOMRectUtil.intrinsicOf(target);
 
-// Gets a intrinsic size(i.e. width, height) of an element by getter calling.
+// Gets an intrinsic size(i.e. width, height) of an element by getter calling.
 const size = target.intrinsicSize;
 
-// Gets a intrinsic size and DOMRect values of an element by getter calling.
+// Gets an intrinsic size and DOMRect values of an element by getter calling.
 const rect = target.intrinsicRect;
 
-// Gets a intrinsic width of an element by getter calling.
+// Gets an intrinsic width of an element by getter calling.
 const width = target.intrinsicWidth;
 
-// Gets a intrinsic height of an element by getter calling.
+// Gets an intrinsic height of an element by getter calling.
 const height = target.intrinsicHeight;
 ```
